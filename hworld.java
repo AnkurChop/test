@@ -1,4 +1,4 @@
-public class MyFirstJavaProgram {
+public class hworld {
 
 
    public static void main(String []args) {

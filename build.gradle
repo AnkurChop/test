@@ -12,3 +12,13 @@ dependencies {
     compile fileTree(dir: "${System.properties['user.home']}/libs/cargo", include: '*.jar')
 }
 }
+task('hello'){
+    doLast{
+        println "Hello"
+        }
+    }
+task compile{
+    doLast{
+        println "Here we are compiling"
+        }
+    }

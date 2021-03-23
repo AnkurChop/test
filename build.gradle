@@ -11,7 +11,7 @@ dependencies {
     runtime fileTree(dir: 'libs', include: '*.jar')
     compile fileTree(dir: "${System.properties['user.home']}/libs/cargo", include: '*.jar')
 }
-}
+
 task('hello'){
     doLast{
         println "Hello"
